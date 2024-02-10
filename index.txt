@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South Cafe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+<section class="header">
+    <div class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" width= "70px"></a>
+            <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">SPECIALTIES</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+<div class="text-box">
+    <h1>SOUTH CAFE</h1>
+    <h2>"Kape Ka-south, Ka-saya!"</h2>
+    <p>We take pride in sourcing our coffee from local farmers, ensuring the freshest beans steeped in
+        Laguna's fertile soil. Our baristas are artisans, crafting each cup with precision, care, and a dash
+        of Taglish charm.</p>
+    <a href="" class="hero-btn">Visit to know more</a>
+</div>
+
+</section>
+
+<!------ Course ------>
+
+<section class="course">
+    <h1>Some of our Specialties</h1>
+    <p>At South Cafe, we're not just about serving coffee; we're about sharing the rich tapestry of
+        Laguna's culture, heritage, and flavors with every cup we brew.</p>
+
+<div class="row">
+    <div class="course-col">
+        <h3>Pagsanjan Rush Iced Coffee</h3>
+        <p>: A thrilling, cool, and refreshing coffee adventure, In the picturesque town of Pagsanjan, Laguna, crafted the Pagsanjan Rush Iced Coffee to capture the
+            spirit of the town's thrilling waterfalls and rich coffee tradition.</p>
+    </div>
+    <div class="course-col">
+        <h3>Laguna Love Latte</h3>
+        <p>A creamy and sweet coffee that'll make your heart swoon, In the heart of Laguna, Philippines, at the charming "South Cafe" coffee shop, barista Miguel crafted
+            the Laguna Love Latte. Inspired by the region's romantic landscapes, the latte blended local beans with
+            sweet condensed milk and coconut cream, creating a creamy and sweet masterpiece</p>
+    </div>
+    <div class="course-col">
+        <h3>Lakeside Lumalaban Mocha</h3>
+        <p>A robust and determined mocha for champions, In the lakeside town of Los Baños, Laguna, Antonio crafted the Lakeside Lumalaban Mocha. Inspired
+            by local athletes, this robust mocha blended the finest coffee beans with cocoa and a touch of honey</p>
+    </div>
+    
+
+</div>
+
+
+</section>
+
+<!------ c0ffee ------>
+
+<section class="coffee">
+    <h1>Types of coffee beans that used in South café</h1>
+    <p>We source the finest coffee beans from local farmers and roast them with care to
+        provide you with the perfect cup of coffee.</p>
+
+    <div class="row">
+        <div class="coffee-col">
+            <img src="images/arabicaa.png">
+            <div class="layer">
+                <h3>ARABICA</h3>
+            </div>
+        </div>
+        <div class="coffee-col">
+            <img src="images/robustaa.png">
+            <div class="layer">
+                <h3>ROBUSTA</h3>
+            </div>
+        </div>
+        <div class="coffee-col">
+            <img src="images/barako.jpg">
+            <div class="layer">
+                <h3>BARAKO</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!----- Facilities ----->
+
+<section class="Facilities">
+    <h1>Our Facilities</h1>
+    <h3>Your South, Your Cafe</h3>
+    <p>At South Cafe, we celebrate the diverse beauty of Laguna and offer a taste of its unique flavors.
+        Whether you're a local or a visitor, we welcome you to experience the heart of Laguna in every
+        cup of coffee.</p>
+
+        <div class="row">
+            <div class="Facilities">
+                <img src="images/map.png">
+                <p>
+                    123 Pook sa Kape Street,
+                    Barangay Kasaysayan,
+                    Calamba City, Laguna,
+                    Philippines
+                    </p>
+            </div>
+        </div>
+</section>
+
+<!----- about ----->
+
+<section class="about">
+    <h1>About South Cafe</h1>
+    <h3>Our Story</h3>
+    <p>South Cafe was born from a deep love for the Laguna region, its vibrant culture, and the
+        breathtaking beauty of its beaches. Our founders, a group of passionate locals, sought to create
+        a space where residents and visitors alike could come together to savor delicious food and
+        coffee in a setting that mirrors the relaxed, easygoing lifestyle of the South.
+        </p>
+
+        <div class="row">
+            <div class="about-col">
+                <img src="images/mission.png"
+                div>
+                <p></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="about-col">
+                <img src="images/sustainability.png"
+                div>
+                <p></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="about-col">
+                <img src="images/innovation.png"
+                div>
+                <p></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="about-col">
+                <img src="images/Cultural Pride.png"
+                div>
+                <p></p>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+</section>
+
+<!---- Call to Action----->
+
+<section class="cta">
+    <h1>South Cafe, Discover the Laguna Lahar Flavors</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+
+<!---- footer----->
+
+<section class="footer">
+    <h4>about us</h4>
+    <p>"Kape Ka-south, Ka-saya!"
+    </p>
+
+</section>
+
+
+
+
+
+
+
+<!------JavaScript for Toggle Menu------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html> 

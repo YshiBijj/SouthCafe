@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South Cafe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <div class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" width= "70px"></a>
+            <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="specialties.html">SPECIALTIES</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>ABOUT US</h1>
+</section>
+
+<!------- Abouts Content -------->
+
+<section class="Abouts">
+
+        <div class="row">
+            <div class="abouts-col">
+                <img src="c:\Users\sheki\Downloads\HTML\images\laguna_luma.jpg">
+                <h3>QUALITY</h3>
+                <p>We source the finest coffee beans from local farmers and roast them with care to 
+                    provide you with the perfect cup of coffee.
+                    Community: We believe in creating spaces where friends, families, and neighbors can come 
+                    together, share stories, and build connections.
+                    </p>
+            </div>
+            <div class="abouts-col">
+                <img src="c:\Users\sheki\Downloads\HTML\images\lakeside.png">
+                <h3>INNOVATION</h3>
+                <p>While we treasure tradition, we also embrace innovation, crafting unique blends 
+and creative coffee experiences that reflect the dynamic spirit of Laguna.</p>
+            </div>
+            <div class="abouts-col">
+                <img src="c:\Users\sheki\Downloads\HTML\images\laguna.jpg">
+                <h3>SUSTAINABILITY</h3>
+                <p>We are dedicated to supporting the community and being environmentally 
+                    responsible, striving to minimize our carbon footprint and waste.</p>
+            </div>
+        </div>
+</section>
+
+<!----- story ------->
+
+<section class="story">
+    <h1>South Cafe, Discover the Laguna Lahar Flavors</h1>
+    <p>"Kape Ka-south, Ka-saya!"</p>
+    <div class="row">
+        <div class="story-col">
+            <h3>Our Mission</h3>
+            <p>At South Cafe, our mission is to celebrate the vibrant spirit of Laguna, one cup at a time. We're 
+                committed to delivering exceptional coffee and a sense of belonging. Our core values are 
+                deeply ingrained in everything we do:
+                </p>
+        </div>
+        <div class="story-col">
+            <h3>Our Story</h3>
+            <p>South Cafe was born from a deep love for the Laguna region, its vibrant culture, and the 
+                breathtaking beauty of its beaches. Our founders, a group of passionate locals, sought to create 
+                a space where residents and visitors alike could come together to savor delicious food and 
+                coffee in a setting that mirrors the relaxed, easygoing lifestyle of the South.</p>
+        </div>
+        <div class="story-col">
+            <h3>Cultural Pride</h3>
+            <p>South Cafe is more than a coffee shop; it's a platform for celebrating the rich 
+                culture and heritage of Laguna, from the local art on our walls to the traditional flavors in our 
+                cups</p>
+        </div>
+    </div>
+
+</section>
+
+<!---- Call to Action----->
+
+<section class="cta">
+    <h1>Connect with us – your inquiries and suggestions fuel our commitment to exceptional service.</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+
+<!---- footer----->
+
+<section class="footer">
+    <h2>About Us</h2>
+    <h4>southcafélaguna@gmail.com</h4>
+    <h4>09366264838</h4>
+</section>
+
+
+
+
+
+
+
+<!------JavaScript for Toggle Menu------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html> 
